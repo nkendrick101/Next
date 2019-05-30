@@ -5,9 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "next",
+        "dev": "node server",
         "build": "next build",
-        "start": "next start",
+        "start": "NODE_ENV=production node server",
         "precommit": "lint-staged"
     },
     "lint-staged": {
@@ -29,7 +29,7 @@
     },
     "homepage": "https://github.com/nkendrick101/Next#readme",
     "dependencies": {
-        "next": "^8.1.0",
+        "next": "^6.0.3",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "@zeit/next-bundle-analyzer": "^0.1.1",
@@ -42,7 +42,6 @@
         "compression": "^1.7.2",
         "dotenv": "^6.0.0",
         "express": "^4.16.3",
-        "next": "^6.0.3",
         "next-compose-plugins": "^2.1.1",
         "next-images": "^0.10.5",
         "next-redux-saga": "^2.0.1",

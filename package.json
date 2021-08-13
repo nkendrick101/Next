@@ -29,7 +29,7 @@
     },
     "homepage": "https://github.com/nkendrick101/Next#readme",
     "dependencies": {
-        "next": "^6.0.3",
+        "next": "^11.1.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "@zeit/next-bundle-analyzer": "^0.1.1",
